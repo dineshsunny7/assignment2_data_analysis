@@ -4,8 +4,8 @@ First user will be asked 2 questions.
 question 1: do you wanna rate a hospital?
 question 2: searching for hospital?
 Let's say user selects option 1(rate)
-Then user will be asked the hospital name which he wants to rate.Then set questions will be displayed.After taking input from user.Database will be updated according to the departments and also 
-the table(hospital_rating) which is containing total points of individual department.
+Then user will be asked the hospital name which he wants to rate.Then set questions will be displayed.After taking input from user.Database will be updated according to the departments and also the table(hospital_rating) which is containing total points of individual department.If the question is to give rating the we will take average of the value present in db and the value that new user gave.If it is "comment question" then, already we created a set of negative and positive words we search if these words are present in the comment that user gave
+then conclude that user had a bad or good experience.if it is bad experience we subtract 1 point if it is positive we add 1 point.
 
 Let's say user selects option 2(searching for hospital)
 Now user will be asked for in which area he is looking for hospital.After taking input from user.
