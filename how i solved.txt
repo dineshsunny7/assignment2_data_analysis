@@ -1,0 +1,13 @@
+A database is created in which for every department(administartion,doctor,services.......) a table is created and also another table in which all hospital details are stored.Another table which
+contains the overall points for each department of that particular hospital. 
+First user will be asked 2 questions.
+question 1: do you wanna rate a hospital?
+question 2: searching for hospital?
+Let's say user selects option 1(rate)
+Then user will be asked the hospital name which he wants to rate.Then set questions will be displayed.After taking input from user.Database will be updated according to the departments and also 
+the table(hospital_rating) which is containing total points of individual department.
+
+Let's say user selects option 2(searching for hospital)
+Now user will be asked for in which area he is looking for hospital.After taking input from user.
+We group by area in hospital_rating table then we order by doctor points,billing points,services points........
+Then the hospital that suites the user will be displays.
